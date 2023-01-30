@@ -62,14 +62,13 @@ main ul .name {
   height: 5%;
   list-style-type: square;
   margin-left: 1.5%;
+  margin-bottom: 0.1%;
   color: rgb(225, 51, 11);
 }
 main ul .photo {
   height: 95%;
   padding-left: 0.3%;
   padding-right: 0.6%;
-  position: relative;
-  bottom: 0;
 }
 main ul .Frame {
   height: 99%;
@@ -89,46 +88,46 @@ main ul .Frame {
 }
 main ul .pro {
   width: 33%;
-  height: 90%;
+  height: 99%;
   margin: 1px;
 }
-main ul .proname1 {
+main ul #pro2 {
+  background-image: url(/images/product/Washer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+main ul #pro3 {
+  background-image: url(/images/product/table.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+main ul #pro1 {
+  background-image: url(/images/product/AC.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+main ul .pronb1 {
   height: 20%;
   background-image: url(/images/number/number2.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
 }
-main ul .proname2 {
+main ul .pronb2 {
   height: 20%;
   background-image: url(/images/number/number1.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
 }
-main ul .proname3 {
+main ul .pronb3 {
   height: 20%;
   background-image: url(/images/number/number3.png);
   background-repeat: no-repeat;
   background-position: left;
-  background-size: contain;
-}
-main ul #pro2 {
-  background-image: url(/images/product/Washer.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: contain;
-}
-main ul #pro3 {
-  background-image: url(/images/product/table.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: contain;
-}
-main ul #pro1 {
-  background-image: url(/images/product/AC.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
   background-size: contain;
 }
 
